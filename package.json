@@ -1,0 +1,13 @@
+{
+  "name": "blockhash-core",
+  "version": "0.0.0",
+  "repository": "LinusU/blockhash-core",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && ts-readme-generator --check"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "ts-readme-generator": "^0.4.2"
+  }
+}
