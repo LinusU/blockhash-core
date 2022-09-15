@@ -1,6 +1,6 @@
 # Blockhash Core
 
-This is the core implementation of the [blockhash perceptual image hashing algorithm](http://blockhash.io).
+This is the core implementation of the [blockhash perceptual image hashing algorithm](https://web.archive.org/web/20210827144701/http://blockhash.io).
 
 Look at the main [`blockhash` package](https://github.com/commonsmachinery/blockhash-js) if you want a higher level api.
 
@@ -13,7 +13,7 @@ npm install --save blockhash-core
 ## Usage
 
 ```js
-const { bmvbhash } = require('blockhash')
+const { bmvbhash } = require('blockhash-core')
 
 const image = new ImageData(/* ... */)
 const result = bmvbhash(image, 16)
